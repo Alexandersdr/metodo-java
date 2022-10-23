@@ -12,7 +12,7 @@ public class Emprestimo {
         return 0.45;
     } 
     
-    public static Void calcular(double valor, int parcelas){
+    public static void calcular(double valor, int parcelas) {
         if (parcelas == 2){
             double valorFinal = valor + (valor * getTaxaDuasParcelas());
 
@@ -27,8 +27,8 @@ public class Emprestimo {
             System.out.println("quantidade de parcelas não aceita.");
             
         }
-        return null;
+       
     }
-    public Emprestimo() {
-    }    
+    
+        
 }
